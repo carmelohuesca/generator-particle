@@ -11,7 +11,8 @@ Generador de Partículas con Yeoman
 * [Karma]: Sistema de Test
 * [Webpack]: Empaquetado del componente
 
-## Instalación
+
+## Instalación
 
 Requiere [node.js] v6+. 
 
@@ -38,8 +39,8 @@ Desde la raiz del proyecto:
 Para iniciar el repositorio local
 
     $ git init
-
-## Ejecución
+    
+## Ejecución
 
 Lanzar el generador de Yeoman:
     
