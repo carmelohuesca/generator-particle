@@ -1,6 +1,6 @@
 # Generador Yeoman de Partículas 
 
- Generaor de par
+Generador de Partículas con Yeoman
 
 ## Tecnologías
 
@@ -37,7 +37,7 @@ Desde la raiz del proyecto:
 
 Para iniciar el repositorio local
 
-    git init
+    $ git init
 
 ## Ejecución
 
