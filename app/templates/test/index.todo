@@ -1,0 +1,31 @@
+Componente <%=name%>:
+  <%=description%>
+  Pruebas manuales, del componente <%=name%> que debe revisar otro desarrollador
+  Comprobar que el componente <%=name%>, cumple:
+  tiene la propiedad "id"
+  tiene la propiedad "name"
+  tiene la propiedad "label"
+  tiene la propiedad "visible"
+  el método show() hace que el componente sea visible
+  el método hide() hace que el componente sea invisible
+  el método toggle() hace que si el componente es visible, se oculte
+  el método toggle() hace que si el componente está oculto, sea visible
+
+  El resultado se va archivando, y se lleva un registro de los casos de prueba manuales.
+
+  Zonda de Pruebas:
+  ☐ tiene la propiedad "id"
+  ☐ tiene la propiedad "name"
+  ☐ tiene la propiedad "label"
+  ☐ tiene la propiedad "visible"
+  ☐ el método show() hace que el componente sea visible
+  ☐ el método hide() hace que el componente sea invisible
+  ☐ el método toggle() hace que si el componente es visible, se oculte
+  ☐ el método toggle() hace que si el componente está oculto, sea visible
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+Archive:
+ ✔ tiene la propiedad "visible" @done (16-12-01 19:42) @project(Componente <%=name%>)
+ ✔ tiene la propiedad "name" @done (16-12-01 19:42) @project(Componente <%=name%>)
+ ✔ tiene la propiedad "label" @done (16-12-01 19:42) @project(Componente <%=name%>)
+ ✔ tiene la propiedad "id" @done (16-12-01 19:42) @project(Componente <%=name%>)

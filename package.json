@@ -1,0 +1,33 @@
+{
+    "name": "generator-particle",
+    "version": "1.0.0",
+    "description": "generador de particulas web",
+    "main": "app/index.js",
+    "scripts": {
+        "test": "karma start"
+    },
+    "files": [],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/carmelohuesca/generator-particle.git"
+    },
+    "keywords": [
+        "yeoman",
+        "generator",
+        "particles"
+    ],
+    "author": "carmelohuesca",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/carmelohuesca/generator-particle/issues"
+    },
+    "homepage": "https://github.com/carmelohuesca/generator-particle#readme",
+    "devDependencies": {
+        "jasmine-core": "^2.8.0",
+        "karma": "^1.7.1",
+        "karma-jasmine": "^1.1.0",
+        "karma-phantomjs-launcher": "^1.0.4",
+        "mkdirp": "^0.5.1",
+        "yeoman-generator": "^2.0.1"
+    }
+}
