@@ -28,9 +28,10 @@ module.exports = function(config) {
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
 
         preprocessors: {
-            '**/*.ts': ['coverage', 'karma-typescript']
+            '**/*.ts': ['karma-typescript', 'coverage']
         },
 
+        // optionally, configure the reporter
         coverageReporter: {
             type: 'html',
             dir: 'coverage/'
@@ -39,7 +40,7 @@ module.exports = function(config) {
         // test results reporter to use
         // possible values: 'dots', 'progress'
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-        reporters: ['progress', 'coverage', 'karma-typescript'],
+        reporters: ['progress', 'karma-typescript', 'coverage'],
 
         // web server port
         port: 9876,
